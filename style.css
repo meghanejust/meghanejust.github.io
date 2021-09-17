@@ -1,21 +1,36 @@
 body{
     background-color:transparent;
+    display: grid;
+    grid-template-columns: 600px 800px 600px
+    
 }
 h1{
     font-family: 'Kanit', sans-serif;
     font-weight:bolder;
-    font-size: 700;
-    color: snow;
+    font-size:500%;
+    color:orangered;
+}
+h2{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    color:orangered;
 }
 
 p{
     font-family: 'Kanit', sans-serif;
     font-weight:300;
-    font-size: 48%;
+    font-size:  100%;
+    font-style: oblique;
+    color: orangered;
 
 }
+
+
 img{
     display: block;
-    max-width: 50%;
+    max-width:50%;
     height: auto;
+    gap: 30px;
+    margin: 40px;;
 }
