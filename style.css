@@ -1,5 +1,14 @@
-.google-font{
+h1{
     font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 150%;
+}
+.system
+p{
+    font-family: 'Kanit', sans-serif;
+    font-weight:300;
+    font-size: 18%;
+
 }
 img{
     display: block;
