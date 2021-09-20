@@ -1,8 +1,7 @@
-
-.body{
+body{
     background-color: white;
     display: grid;
-    grid-template-columns: 800px 1000px 800px;
+    grid-template-columns: 600px 600px 600px;
      
 h1{
     font-family:'Kanit', sans-serif;
@@ -25,12 +24,9 @@ p{
     color: orangered;
 
 }
-
-
 img{
     display: block;
-    max-width:50%;
+    max-width:100%;
     height: auto;
-    gap: 30px;
-    margin: 40px;;
+    
 }
