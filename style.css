@@ -4,7 +4,7 @@ body{
     background-image: url(./images/fond.jpg);
     background-size: 170%;
     color:rgba(255,400,60,0.5);
-    gap: 7px;px;
+    gap: 4px;
     
 }
 
@@ -36,6 +36,17 @@ img{
     height: auto;
     ;
     
+}
+.div-image {
+    width: 420px;
+    height:420px;
+    overflow: hidden;
+}
+.image-zoom{
+    transition: 0.4s;
+}
+.image-zoom:hover {
+    transform:scale(1.2);
 }
 .info{
     font-family:'Kanit', sans-serif;
