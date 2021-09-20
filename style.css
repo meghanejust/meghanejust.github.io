@@ -4,7 +4,7 @@ body{
     background-image: url(./images/fond.jpg);
     background-size: 170%;
     color:rgba(255,400,60,0.5);
-    gap: 4px;
+    gap: 7px;
     
 }
 
@@ -14,21 +14,27 @@ h1{
     font-size:550%;
     color:rgb(0, 0, 0);
 }
+h2{
+    font-family: 'Kanit', sans-serif;
+    font-weight: inherit;
+    font-size: 130%;
+    color: orangered;
+}
 a{
     text-decoration:none;
     font-family: 'Kanit', sans-serif;
     font-weight: 400;
-    font-size: 100%;
-    color:orangered;
+    font-size:100%;
+    font-style: oblique;
+
 }
 
 
 p{
     font-family: 'Kanit', sans-serif;
-    font-weight:300;
-    font-size:  100%;
-    font-style: oblique;
-    color:orangered;
+    font-weight:lighter;
+    font-size:  120%;
+    color:rgb(0, 0, 0);
 
 }
 img{
@@ -38,8 +44,8 @@ img{
     
 }
 .div-image {
-    width: 420px;
-    height:420px;
+    width: 440px;
+    height:440px;
     overflow: hidden;
 }
 .image-zoom{
@@ -50,10 +56,9 @@ img{
 }
 .info{
     font-family:'Kanit', sans-serif;
-    font-style: oblique;
-    font-weight: 500%;
+    font-style:oblique;
+    font-weight:100%;
     font-size: 100%;
     color:black;
-    
     
 }
