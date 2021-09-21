@@ -3,16 +3,18 @@ body{
     background-size: 130%;  
     gap: 20px; 
     margin-right: 8px;
+    max-width: 100%;
 }
 
 @media (min-width:640px) {
     body{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
         background-image: url(./images/fond.jpg);
         background-size: 130%;   
     }
 }
+
 
 h1{
     font-family:'Kanit', sans-serif;
