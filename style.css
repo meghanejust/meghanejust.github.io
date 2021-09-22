@@ -33,8 +33,12 @@ h2{
     font-family: 'Kanit', sans-serif;
     font-weight: inherit;
     font-size: 130%;
-    color: orangered;
+    color:black;
 
+}
+h2:hover{
+    color: orangered;
+    text-decoration-color:none;
 }
 a{
     text-decoration:none;
@@ -43,6 +47,13 @@ a{
     font-size:100%;
     font-style: oblique;
 
+}
+.sous-titre{
+    font-family:'Kanit', sans-serif;
+    font-weight:lighter;
+    font-size:300%;
+    font-style: normal;
+    color:rgb(0, 0, 0);
 }
 
 p{
