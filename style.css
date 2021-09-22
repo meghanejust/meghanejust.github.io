@@ -1,19 +1,25 @@
 body{
-    background-image: url(./images/fond.jpg);
+    
     background-size: 200%;  
     gap: 20px; 
-    max-width: 80%;
+    max-width: 100%;
+    margin:auto;
     
 }
+
 
 @media (min-width:640px) {
     body{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        background-image: url(./images/fond.jpg);
-        background-size: 150%;   
-        margin: auto;
+        background-color: white;
+        
+        margin: 2%;
     }
+    .fond1{
+    background-image: url(./images/fond.jpg);
+    background-size: 130%;
+}
 }
 
 
@@ -82,6 +88,9 @@ img{
 
 .info-b {
     grid-template-columns: 1fr 1fr;
+    background-image: url(./images/fond.jpg);
+    background-size: 130%;
+
 }
 .info-titre{
     font-family: 'Kanit', sans-serif;
